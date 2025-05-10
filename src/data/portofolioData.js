@@ -1,0 +1,152 @@
+// Mock data (remains the same)
+import {
+    Linkedin,
+    Mail,
+    Phone,
+    MapPin,
+    Briefcase,
+    GraduationCap,
+    Award,
+    Wrench,
+    Users,
+    BarChart,
+    Settings,
+    Brain,
+    Languages,
+    Send,
+    Bot,
+    User,
+    Loader2,
+    AlertTriangle,
+    Info,
+    MessageSquare,
+  } from "lucide-react"; // Added MessageSquare
+
+export const portfolioData = {
+  name: "Hafezd El Daffa",
+  title: "Project Manager | Product Enthusiast | Developer",
+  location: "Kota Bekasi, Jawa Barat, Indonesia",
+  email: "hafezdeldaffa9@gmail.com",
+  phone: "+6281283650050",
+  linkedin: "https://www.linkedin.com/in/hafezdeldaffa",
+  about:
+    "Experienced Project Manager with a background in product management and software development. Proven ability to lead teams, manage projects using Agile methodologies, and leverage data for strategic decision-making. Passionate about driving innovation and achieving impactful results. I thrive in dynamic environments, enjoy solving complex problems, and am always eager to learn and apply new technologies to create value.",
+  education: [
+    {
+      institution: "Gunadarma University",
+      degree: "Bachelor Degree, Information System",
+      year: "2023",
+      gpa: "3.81",
+      details:
+        "Relevant Experience: Becoming a laboratory assistant on campus.",
+    },
+  ],
+  experience: [
+    {
+      company: "Datasaur",
+      role: "Project Manager",
+      duration: "Nov 2023 - Present",
+      location: "Remote",
+      description: [
+        "Orchestrated strategic project and product roadmap, driving innovation while achieving 40% improved team sprint output through active process management.",
+        "Increased product adoption to 100 weekly active users within two quarters, exceeding growth targets.",
+        "Led multiple consultation projects for tech and government clients, directly contributing to company revenue growth.",
+        "Leveraged data-driven decision making to align product development with market demands and business objectives.",
+      ],
+    },
+    {
+      company: "Datasaur",
+      role: "Product Manager Intern",
+      duration: "May 2023 - Nov 2023",
+      location: "Remote",
+      description: [
+        "Implemented agile product management methodologies, resulting in improved workflow efficiency and product iteration cycles.",
+        "Served as interim Project Manager for a dedicated squad focusing on labeling functionality, coordinating team efforts and ensuring timely deliverables.",
+        "Conducted comprehensive competitive analysis of market competitors and potential users, generating valuable comparative data.",
+        "Executed user research initiatives to identify pain points and feature opportunities, contributing insights to product roadmap development.",
+      ],
+    },
+    {
+      company: "Bebasinvestasi",
+      role: "Backend Developer Intern",
+      duration: "Oct 2022 - Mar 2023",
+      location: "Remote",
+      description: [
+        "Developed the existing Microservices Architecture using Quarkus Framework, Redis, Kafka, and Nats.io.",
+      ],
+    },
+    {
+      company: "DANA Indonesia",
+      role: "Software Developer Engineer In Test Intern",
+      duration: "Feb 2022 - July 2022",
+      location: "Indonesia",
+      description: [
+        "Learned about QA engineering during the intern process.",
+        "Handled and implemented QA processes in multiple projects during the intern process.",
+      ],
+    },
+    {
+      company: "Google Developer Student Club",
+      role: "Core Team Web Development",
+      duration: "Sep 2021 - July 2022",
+      location: "Jakarta, Indonesia",
+      description: [
+        "Responsible for managing the web division, preparing learning curricula to be delivered at weekly web events that discuss material about Website Development.",
+      ],
+    },
+  ],
+  skills: {
+    technical: [
+      "Java",
+      "Node.js",
+      "Python",
+      "SQL",
+      "NoSQL",
+      "Quarkus",
+      "Kafka",
+      "Redis",
+      "Nats.io",
+      "Microservices",
+    ],
+    soft: [
+      "Team Management",
+      "Project Execution & Management",
+      "Agile & Scrum",
+      "Resource Planning",
+      "Risk Management",
+      "Data-driven Decision Making",
+      "Competitive Analysis",
+      "User Research",
+    ],
+    tools: [
+      "Zenhub",
+      "Asana",
+      "Jira",
+      "Mixpanel",
+      "HubSpot",
+      "Google Analytics",
+      "Google Cloud Platform",
+      "BigQuery",
+      "GKE",
+    ],
+    languages: ["English (Fluent)", "Indonesian (Native)"],
+  },
+  certifications: [
+    {
+      name: "From Data to Insights with Google Cloud",
+      issuer: "Coursera",
+      icon: BarChart,
+    },
+    {
+      name: "Architecting with Google Kubernetes Engine",
+      issuer: "Coursera",
+      icon: Settings,
+    },
+    {
+      name: "Google Project Management: Specialization",
+      issuer: "Coursera",
+      icon: Briefcase,
+    },
+    { name: "Junior Web Programmer Occupation", issuer: "BNSP", icon: Wrench },
+  ],
+};
