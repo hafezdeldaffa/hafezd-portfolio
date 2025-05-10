@@ -30,11 +30,6 @@ export const ChatbotSection = ({ profileContext }) => {
     const enrichedUserMessage = `Based on the profile of Hafezd El Daffa (${profileContext}), answer this question: ${userMessage}`;
     const apiMessages = [{ role: "user", content: enrichedUserMessage }];
 
-    console.log(
-      "Sending directly to API:",
-      JSON.stringify({ messages: apiMessages })
-    );
-
     try {
       const response = await fetch(API_URL, {
         method: "POST",
